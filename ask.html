@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ask a Question? | Solveify</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="home ask-page">
+        <h1>Solveify</h1>
+        <h3>no more doubts</h3>
+    </div>
+    <center>
+        <hr>
+    </center>
+    <div class="section">
+        <div class="question_input">
+            <center>
+                <input type="text" name="Name" id="name" placeholder="Name..." required>
+                <br>
+                <input type="email" name="Email" id="email" placeholder="Email Id..." required>
+                <br>
+                <input type="text" name="School" id="school" placeholder="School..." required>
+                <br>
+                <textarea type="text" name="question" id="question" placeholder="Question..." rows="1" class="auto_height"
+                    oninput="auto_height(this)" required></textarea>
+                <br>
+                <div class="alert" id="alert">please input a valid value<br></div>
+                <div class="success" id="alert">Your Input has been recorded! Thank you! <br></div>
+                <button class="btn" name="submit" type="submit" id="compost" value="" onclick="submitButton()">Submit question</button>
+            </center>
+        </div>
+    </div>
+    <center>
+        <hr>
+    </center>
+    <div class="section">
+        <center>
+            <a href="index.html" class="logo">
+                <h1>Solveify</h1>
+            </a>
+            <p>&copy; All Rights Reserved. Solvify 2020<br>
+                Tagore International School<br>
+                Vasant Vihar</p>
+        </center>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="index.js" async defer></script>
+</body>
+
+</html>

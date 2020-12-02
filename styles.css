@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    outline: none !important;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.section {
+    padding: 100px;
+}
+
+.home {
+    text-align: right;
+    height: 100vh;
+    padding-top: 15%;
+    padding-right: 15%;
+    background-image: url(img/back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.home.ask-page {
+    text-align: center;
+    height: 80vh;
+    padding-top: 12%;
+    padding-right: 0px;
+    background: none;
+}
+
+.home h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 75px;
+    padding: 10px;
+}
+
+hr {
+    width: 80%;
+    border-color:  #fd861e;
+}
+
+.home h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #fd861e;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.section h1, .ask {
+    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.ask h1 {
+    color: #fd861e;
+}
+
+.logo {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo h1 {    
+    font-family: 'Heebo', sans-serif;
+    font-size: 75px;
+}
+
+.section p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+input, textarea {
+    background-color: transparent;
+    border: transparent solid 2px;
+    border-bottom-color:#fff;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    transition: 0.25s;
+    margin: 10px;
+    color: white;
+}
+
+input:focus, textarea:focus {
+    border-bottom-color: #ccc;
+    width: 80%;
+}
+
+.btn{
+    border:#fff solid 2px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.25s;
+    width: auto;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:#fff;
+    color: #000;
+}
+.alert {
+    display: none;
+    color: red;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.success {
+    display: none;
+    color: greenyellow;
+    padding: 10px;
+    font-family: sans-serif;
+}
