@@ -14,20 +14,27 @@ body {
     padding: 100px;
 }
 
+@media screen and (max-height: 950px) {
+    .section {
+        padding: 10px;
+    }
+    .home {
+        padding-top: 30%;
+    }
+}
+
 .home {
     text-align: right;
     height: 100vh;
     padding-top: 15%;
-    padding-right: 15%;
     background-image: url(img/back.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .home.ask-page {
     text-align: center;
     height: 80vh;
     padding-top: 12%;
-    padding-right: 0px;
     background: none;
 }
 
