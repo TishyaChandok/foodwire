@@ -20,6 +20,7 @@ body {
     }
     .home {
         padding-top: 30%;
+        padding-right: 15px;
     }
 }
 
@@ -27,6 +28,7 @@ body {
     text-align: right;
     height: 100vh;
     padding-top: 15%;
+    padding-right: 15%;
     background-image: url(img/back.png);
     background-size: cover;
     background-repeat: no-repeat;
