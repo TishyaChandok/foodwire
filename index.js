@@ -5,19 +5,19 @@ function auto_height(elem) {
 
 (function () {
     var username = $('#name');
-    var email = $('#email');
-    var school = $('#school');
-    var  question = $('#question');
+    var date = $('#date');
+    var phone_number = $('#phone_number');
+    var  address = $('#address');
     $('.btn').on('click', function () {
-        if ( question.val() == "") {
+        if ( address.val() == "") {
             $(".alert").css("display", "block");
             $(".success").css("display", "none");
              
-        } else if (email.val() == "") {
+        } else if (date.val() == "") {
             $(".alert").css("display", "block");
             $(".success").css("display", "none");
              
-        } else if (email.val().includes("@") == false) {
+        } else if (date.val().includes("@") == false) {
             $(".alert").css("display", "block");
             $(".success").css("display", "none");
              
@@ -25,7 +25,7 @@ function auto_height(elem) {
             $(".alert").css("display", "block");
             $(".success").css("display", "none");
              
-        } else if (school.val() == "") {
+        } else if (phone_number.val() == "") {
             $(".alert").css("display", "block");
             $(".success").css("display", "none");
              
@@ -34,9 +34,9 @@ function auto_height(elem) {
             $(".success").css("display", "block");
         }
         document.getElementById('name').value = '';
-        document.getElementById('email').value = '';
-        document.getElementById('school').value = '';
-        document.getElementById('question').value = '';
+        document.getElementById('date').value = '';
+        document.getElementById('phone_number').value = '';
+        document.getElementById('address').value = '';
     });
 
 }());

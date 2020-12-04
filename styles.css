@@ -89,6 +89,11 @@ hr {
     padding: 10px;
 }
 
+.img-char {
+    width: 25%;
+    margin: 10px;
+}
+
 input, textarea {
     background-color: transparent;
     border: transparent solid 2px;
