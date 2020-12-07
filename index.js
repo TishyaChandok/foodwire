@@ -17,10 +17,6 @@ function auto_height(elem) {
             $(".alert").css("display", "block");
             $(".success").css("display", "none");
              
-        } else if (date.val().includes("@") == false) {
-            $(".alert").css("display", "block");
-            $(".success").css("display", "none");
-             
         } else if (username.val() == "") {
             $(".alert").css("display", "block");
             $(".success").css("display", "none");
