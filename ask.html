@@ -14,7 +14,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onscroll="scrollFunction()">
+    
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About Us</a>
+        <a href="index.html#char">Charities we Work With</a>
+        <a href="avoid.html">Avoiding Food Wastage</a>
+        <a href="ask.html">Register a Pickup</a>
+    </div>
+
     <div class="home ask-page">
         <h1>FoodWire</h1>
         <h3>no more wastage</h3>
@@ -36,7 +45,7 @@
                 <br>
                 <div class="alert" id="alert">please input a valid value<br></div>
                 <div class="success" id="alert">Your Input has been recorded! Thank you! <br></div>
-                <button class="btn" name="submit" type="submit" id="compost" value="" onclick="submitButton()">Register Pickup</button>
+                <input class="btn" name="submit" type="submit" id="compost" value="Register Pickup" onclick="submitButton()">
             </center>
         </div>
     </div>

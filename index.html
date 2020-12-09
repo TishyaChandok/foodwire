@@ -14,7 +14,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onscroll="scrollFunction()">
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About Us</a>
+        <a href="index.html#char">Charities we Work With</a>
+        <a href="avoid.html">Avoiding Food Wastage</a>
+        <a href="ask.html">Register a Pickup</a>
+    </div>
+
     <div class="home">
         <h1>FoodWire</h1>
         <h3>no more wastage</h3>
@@ -22,22 +31,21 @@
     <center>
         <hr>
     </center>
-    <div class="section">
+    <div class="section" id="about">
         <h1>About Us</h1>
-        <p>We students of class 7, Tagore International School have come together for a glorious purpose to help the
-            people suffering with starvation. This idea occurred to us during this  pandemic, wherein some needy people
-            do not even have food to eat and have to move back to their hometowns. We will try to collect leftover food
-            from parties and give them to needy people.</p>
+        <p>We have come together for a glorious purpose to help the people suffering with starvation. This idea occurred
+            to us during this  pandemic, wherein some needy people do not even have food to eat and have to move back to
+            their hometowns. We will try to collect leftover food from parties and give them to needy people.</p>
     </div>
     <center>
         <hr>
     </center>
-    <div class="section">
+    <div class="section" id="char">
         <h1>Charities We Work With</h1>
         <center>
-            <img src="img/char1.png" class="img-char">
-            <img src="img/char2.png" class="img-char">
-            <img src="img/char3.png" class="img-char">
+            <a href="http://www.spym.org" target="_blank"><img src="img/char1.png" class="img-char"></a>
+            <a href="https://www.akshayapatra.org" target="_blank"><img src="img/char2.png" class="img-char"></a>
+            <a href="https://www.delhifoodbanking.org" target="_blank"><img src="img/char3.png" class="img-char"></a>
         </center>
     </div>
     <center>
@@ -63,6 +71,11 @@
                 Vasant Vihar</p>
         </center>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="index.js" async defer></script>
 </body>
 
 </html>

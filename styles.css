@@ -5,6 +5,10 @@
     outline: none !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(40, 40, 40);
     color: white;
@@ -83,18 +87,20 @@ hr {
     font-size: 75px;
 }
 
-.section p {
+.section p, .section ul {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
+    list-style-type: none;
 }
 
 .img-char {
     width: 25%;
     margin: 10px;
+    cursor: pointer;
 }
 
-input, textarea {
+input[type=date], input[type=text], textarea {
     background-color: transparent;
     border: transparent solid 2px;
     border-bottom-color:#fff;
@@ -106,7 +112,7 @@ input, textarea {
     color: white;
 }
 
-input:focus, textarea:focus {
+input[type=date]:focus, input[type=text]:focus, textarea:focus {
     border-bottom-color: #ccc;
     width: 80%;
 }
@@ -118,7 +124,7 @@ input:focus, textarea:focus {
     border-radius: 30px;
     padding: 10px 20px;
     transition: 0.25s;
-    width: auto;
+    width: auto !important;
     cursor: pointer;
 }
 
@@ -137,4 +143,30 @@ input:focus, textarea:focus {
     color: greenyellow;
     padding: 10px;
     font-family: sans-serif;
+}
+
+.navbar {
+    background: transparent;
+    padding: 20px 50px;
+    text-align: right;
+    position: fixed;
+    width: 100vw;
+    transition: 0.25s;
+}
+
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.scrolled {
+    background-color: rgba(40,40,40);
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.5);
+}
+
+#dos table {
+    width: 100%;
 }
